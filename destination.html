@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--main css file-->
+    <link rel="stylesheet" href="styles/master.css">
+    <!--normalize css file-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <!--fontawosme css file-->
+    <link rel="stylesheet" href="styles/all.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700&family=Barlow:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Space X</title>
+</head>
+<body>
+    <div class="landing-page destination">
+        <nav>
+            <div class="left-side">
+                <div class="logo">
+                    <div class="cricle"></div>
+                    <img src="img/Path.png" alt="">
+                </div>
+            </div>
+            <div class="midlle-side">
+                <hr>
+            </div>
+            <div class="right-side">
+                <ul>
+                    <li><a  href="index.html">00 HOME</a><a class="hr" href="index.html"><hr></a></li>
+                    <li><a  href="destination.html">01 DESTINATION</a><a class="hr" href="destination.html"><hr></a></li>
+                    <li><a  href="crew.html"> 02 CREW</a><a class="hr" href="crew.html"><hr></a></li>
+                    <li><a  href="technology.html">03 TECHNOLOGY</a><a class="hr" href="technology.html"><hr></a></li>                
+                </ul>
+            </div>
+            <div class="icon-list">
+                <a onclick="actoin2();" id="list" href="#">
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                    <div class="icon"></div>
+                </a>
+            </div>
+            <div class="side-lise">
+                <a onclick="exit();" class="exit" href="#">&#x2715</a>
+                <ul class="side-ul">
+                    <li>
+                        <ul class="sub-menu">
+                            <li><a href="index.html">00 HOME</a></li>
+                            <li><a href="destination.html">01 DESTINATION</a></li>
+                            <li><a href="crew.html">02 CREW</a></li>
+                            <li><a href="technology.html">03 TECHNOLOGY</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+        <div class="slider-container">
+            <div class="detination-navbar">
+                <ul>
+                    <li><a class="frist-a" data-index="1" href="#MOON">MOON</a> <a class="hr" href="#MOON"><hr></a></li>
+                    <li><a class="frist-a" data-index="2" href="#MARS">MARS</a><a class="hr" href="#MARS"><hr></a></li>
+                    <li><a class="frist-a" data-index="3" href="#EUROPA">EUROPA</a><a class="hr" href="#EUROPA"><hr></a></li>
+                    <li><a class="frist-a" data-index="4"  href="#TITAN">TITAN</a><a class="hr" href="#TITAN"><hr></a></li>
+                </ul>
+            </div>
+            <div class="container ">
+                <div class="destination-left-side">
+                    <p><span class="number">01</span>Pick your destination</p>
+                    <img src="img/moon.png" alt="">
+                </div>
+                <div class="destination-right-side">
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="content-box">
+                                <h1>MOON</h1>
+                                <p>
+                                    See our planet as you’ve never seen it before.
+                                    A perfect relaxing trip away to help regain
+                                    perspective and come back refreshed. While you’re
+                                    there, take in some history by visiting the Luna 2
+                                    and Apollo 11 landing sites.
+                                </p>
+                            </div>
+                            <div class="middle">
+                                <hr class="card-hr">
+                            </div>
+                            <div class="number-box">
+                                <div class="number-card">
+                                    <p class="header">AVG. DISTANCE</p>
+                                    <p class="describtion">384,400 km</p>
+                                </div>
+                                <div class="number-card">
+                                    <p class="header">Est. travel time</p>
+                                    <p class="describtion">3 days</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="destination-left-side">
+                    <p><span class="number">01</span>Pick your destination</p>
+                    <img src="img/mars.png" alt="">
+                </div>
+                <div class="destination-right-side">
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="content-box">
+                                <h1>MARS</h1>
+                                <p>
+                                    Don’t forget to pack your hiking boots. You’ll 
+                                    need them to tackle Olympus Mons, the tallest planetary
+                                    mountain in our solar system. It’s two and a half times
+                                    the size of Everest!
+                                </p>
+                            </div>
+                            <div class="middle">
+                                <hr class="card-hr">
+                            </div>
+                            <div class="number-box">
+                                <div class="number-card">
+                                    <p class="header">AVG. DISTANCE</p>
+                                    <p class="describtion">225 MIL. km</p>
+                                </div>
+                                <div class="number-card">
+                                    <p class="header">Est. travel time</p>
+                                    <p class="describtion">9 months</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="destination-left-side">
+                    <p><span class="number">01</span>Pick your destination</p>
+                    <img src="img/EUROPA.png" alt="">
+                </div>
+                <div class="destination-right-side">
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="content-box">
+                                <h1>EUROPA</h1>
+                                <p>
+                                    The smallest of the four Galilean moons orbiting
+                                    Jupiter, Europa is a winter lover’s dream. With
+                                    an icy surface, it’s perfect for a bit of ice skating,
+                                    curling, hockey, or simple relaxation in your snug wintery cabin.
+                                </p>
+                            </div>
+                            <div class="middle">
+                                <hr class="card-hr">
+                            </div>
+                            <div class="number-box">
+                                <div class="number-card">
+                                    <p class="header">AVG. DISTANCE</p>
+                                    <p class="describtion">628 MIL. km</p>
+                                </div>
+                                <div class="number-card">
+                                    <p class="header">Est. travel time</p>
+                                    <p class="describtion">3 years</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="destination-left-side">
+                    <p><span class="number">01</span>Pick your destination</p>
+                    <img src="img/TITAN.png" alt="">
+                </div>
+                <div class="destination-right-side">
+                    <div class="cards-container">
+                        <div class="card">
+                            <div class="content-box">
+                                <h1>TITAN</h1>
+                                <p>
+                                    The only moon known to have a dense atmosphere other
+                                    than Earth, Titan is a home away from home 
+                                    (just a few hundred degrees colder!). As a bonus, you
+                                    get striking views of the Rings of Saturn.
+                                </p>
+                            </div>
+                            <div class="middle">
+                                <hr class="card-hr">
+                            </div>
+                            <div class="number-box">
+                                <div class="number-card">
+                                    <p class="header">AVG. DISTANCE</p>
+                                    <p class="describtion">1.6 BIL. km</p>
+                                </div>
+                                <div class="number-card">
+                                    <p class="header">Est. travel time</p>
+                                    <p class="describtion">7 years</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="scripts/main.js"></script>
+</body>
