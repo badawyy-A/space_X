@@ -197,7 +197,7 @@ nav{
     background-color: rgba(53, 52, 52, 0.9); 
     background-size: cover;
     background-position: center;
-    backdrop-filter: blur(24px);
+    backdrop-filter: blur(35px);
     z-index: -1;
 }
 .side-lise .exit{
@@ -699,9 +699,6 @@ nav{
         width: 100%;
         height: 100%;
         z-index: -1; 
-    }
-    .destination  .detination-navbar li:hover .hr{
-        width: 18%;
     }
     .describtion .container{
         flex-direction: column;
