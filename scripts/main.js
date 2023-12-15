@@ -23,6 +23,24 @@ function exit(){
 var slider = Array.from(document.querySelectorAll('.destination .slider-container .container'));
 var destinationLinks = Array.from(document.querySelectorAll('.destination .detination-navbar ul li a.frist-a'))
 var destinationHr = Array.from(document.querySelectorAll('.destination .detination-navbar ul li a.hr'))
+var img = document.querySelector('.destination .slider-container .container img');
+var img2 = document.querySelectorAll('.destination .slider-container .container img')[1];
+var img3 = document.querySelectorAll('.destination .slider-container .container img')[2];
+var img4 = document.querySelectorAll('.destination .slider-container .container img')[3];
+
+
+console.log(img2)
+
+let rotationAngle = 0; 
+let intervelMove = setInterval(imgMove , 100);
+
+function imgMove(){
+    rotationAngle += 1;
+    img.style.transform = `rotate(${rotationAngle}deg)`; 
+    img2.style.transform = `rotate(${rotationAngle}deg)`; 
+    img3.style.transform = `rotate(${rotationAngle}deg)`; 
+    img4.style.transform = `rotate(${rotationAngle}deg)`; 
+}
 
 
 
