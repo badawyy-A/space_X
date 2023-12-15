@@ -550,10 +550,11 @@ nav{
     width: 445px;
     margin-left: 0px;
     margin-top: 15%;
+    transition: 1s;
 }
 .destination .destination-right-side{
     width: 50%;
-    margin-left: 15%;
+    margin-left: 15%;    
 }
 .destination  .detination-navbar{
     width: 100%;
@@ -582,6 +583,7 @@ nav{
     font-size: 24px;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 100;
+    
 }
 .destination  .detination-navbar li .hr{
     width: 0;
@@ -608,6 +610,7 @@ nav{
     color: var(--main-text-color);
     font-size: 100px;
     font-weight: 400;
+    transition: 0.5s ease;
 }
 .destination .destination-right-side .content-box p{
     color: var(--second-text-color);
@@ -616,6 +619,7 @@ nav{
     font-weight: 200;
     width: 100%;
     margin-top: -8%;
+    transition: 1s ease;
 }
 .destination .destination-right-side .card-hr{
     width: 100%;
@@ -628,6 +632,9 @@ nav{
     justify-content: space-between;
     align-items: flex-start;
     width: 62%;
+}
+.destination .destination-right-side .number-box .number-card{
+    transition: 1.5s ease;
 }
 .destination .destination-right-side .number-box .number-card .header{
     color: var(--second-text-color);
